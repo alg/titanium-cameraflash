@@ -8,29 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		7991316D1667400200DE2849 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7991316C1667400200DE2849 /* Foundation.framework */; };
-		799131721667400200DE2849 /* cameraflash.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 799131711667400200DE2849 /* cameraflash.h */; };
-		799131741667400200DE2849 /* cameraflash.m in Sources */ = {isa = PBXBuildFile; fileRef = 799131731667400200DE2849 /* cameraflash.m */; };
+		799131851667419C00DE2849 /* cameraflash-Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = 79913180166740D500DE2849 /* cameraflash-Prefix.pch */; };
+		7991318C16674DDB00DE2849 /* ComNoizerampCameraflashModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 7991318816674DDB00DE2849 /* ComNoizerampCameraflashModule.h */; };
+		7991318D16674DDB00DE2849 /* ComNoizerampCameraflashModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 7991318916674DDB00DE2849 /* ComNoizerampCameraflashModule.m */; };
+		7991318E16674DDB00DE2849 /* ComNoizerampCameraflashModuleAssets.h in Headers */ = {isa = PBXBuildFile; fileRef = 7991318A16674DDB00DE2849 /* ComNoizerampCameraflashModuleAssets.h */; };
+		7991318F16674DDB00DE2849 /* ComNoizerampCameraflashModuleAssets.m in Sources */ = {isa = PBXBuildFile; fileRef = 7991318B16674DDB00DE2849 /* ComNoizerampCameraflashModuleAssets.m */; };
 /* End PBXBuildFile section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		799131671667400200DE2849 /* CopyFiles */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "include/${PRODUCT_NAME}";
-			dstSubfolderSpec = 16;
-			files = (
-				799131721667400200DE2849 /* cameraflash.h in CopyFiles */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		799131691667400200DE2849 /* libcameraflash.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libcameraflash.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		7991316C1667400200DE2849 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		799131701667400200DE2849 /* cameraflash-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "cameraflash-Prefix.pch"; sourceTree = "<group>"; };
-		799131711667400200DE2849 /* cameraflash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cameraflash.h; sourceTree = "<group>"; };
-		799131731667400200DE2849 /* cameraflash.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cameraflash.m; sourceTree = "<group>"; };
+		79913180166740D500DE2849 /* cameraflash-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "cameraflash-Prefix.pch"; sourceTree = "<group>"; };
+		79913181166740DC00DE2849 /* titanium.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = titanium.xcconfig; sourceTree = "<group>"; };
+		7991318816674DDB00DE2849 /* ComNoizerampCameraflashModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComNoizerampCameraflashModule.h; sourceTree = "<group>"; };
+		7991318916674DDB00DE2849 /* ComNoizerampCameraflashModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComNoizerampCameraflashModule.m; sourceTree = "<group>"; };
+		7991318A16674DDB00DE2849 /* ComNoizerampCameraflashModuleAssets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ComNoizerampCameraflashModuleAssets.h; sourceTree = "<group>"; };
+		7991318B16674DDB00DE2849 /* ComNoizerampCameraflashModuleAssets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ComNoizerampCameraflashModuleAssets.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,7 +41,8 @@
 		7991315E1667400200DE2849 = {
 			isa = PBXGroup;
 			children = (
-				7991316E1667400200DE2849 /* cameraflash */,
+				7991317F166740C500DE2849 /* Other Sources */,
+				7991317A166740B600DE2849 /* Classes */,
 				7991316B1667400200DE2849 /* Frameworks */,
 				7991316A1667400200DE2849 /* Products */,
 			);
@@ -70,34 +64,49 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		7991316E1667400200DE2849 /* cameraflash */ = {
+		7991317A166740B600DE2849 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				799131711667400200DE2849 /* cameraflash.h */,
-				799131731667400200DE2849 /* cameraflash.m */,
-				7991316F1667400200DE2849 /* Supporting Files */,
+				7991318816674DDB00DE2849 /* ComNoizerampCameraflashModule.h */,
+				7991318916674DDB00DE2849 /* ComNoizerampCameraflashModule.m */,
+				7991318A16674DDB00DE2849 /* ComNoizerampCameraflashModuleAssets.h */,
+				7991318B16674DDB00DE2849 /* ComNoizerampCameraflashModuleAssets.m */,
 			);
-			path = cameraflash;
+			path = Classes;
 			sourceTree = "<group>";
 		};
-		7991316F1667400200DE2849 /* Supporting Files */ = {
+		7991317F166740C500DE2849 /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
-				799131701667400200DE2849 /* cameraflash-Prefix.pch */,
+				79913180166740D500DE2849 /* cameraflash-Prefix.pch */,
+				79913181166740DC00DE2849 /* titanium.xcconfig */,
 			);
-			name = "Supporting Files";
+			name = "Other Sources";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		799131841667419700DE2849 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				799131851667419C00DE2849 /* cameraflash-Prefix.pch in Headers */,
+				7991318C16674DDB00DE2849 /* ComNoizerampCameraflashModule.h in Headers */,
+				7991318E16674DDB00DE2849 /* ComNoizerampCameraflashModuleAssets.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
 		799131681667400200DE2849 /* cameraflash */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 799131771667400200DE2849 /* Build configuration list for PBXNativeTarget "cameraflash" */;
 			buildPhases = (
+				799131841667419700DE2849 /* Headers */,
 				799131651667400200DE2849 /* Sources */,
 				799131661667400200DE2849 /* Frameworks */,
-				799131671667400200DE2849 /* CopyFiles */,
 			);
 			buildRules = (
 			);
@@ -139,7 +148,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				799131741667400200DE2849 /* cameraflash.m in Sources */,
+				7991318D16674DDB00DE2849 /* ComNoizerampCameraflashModule.m in Sources */,
+				7991318F16674DDB00DE2849 /* ComNoizerampCameraflashModuleAssets.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -166,9 +176,17 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				HEADER_SEARCH_PATHS = (
+					"$(TITANIUM_BASE_SDK2)",
+					"$(TITANIUM_BASE_SDK)",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				TITANIUM_BASE_SDK = "\"$(TITANIUM_SDK)/iphone/include\"";
+				TITANIUM_BASE_SDK2 = "\"$(TITANIUM_SDK)/iphone/include/TiCore\"";
+				TITANIUM_SDK = "~/Library/Application Support/Titanium/mobilesdk/osx/$(TITANIUM_SDK_VERSION)";
+				TITANIUM_SDK_VERSION = 2.1.5;
 			};
 			name = Debug;
 		};
@@ -185,8 +203,16 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				HEADER_SEARCH_PATHS = (
+					"$(TITANIUM_BASE_SDK2)",
+					"$(TITANIUM_BASE_SDK)",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 5.0;
 				SDKROOT = iphoneos;
+				TITANIUM_BASE_SDK = "\"$(TITANIUM_SDK)/iphone/include\"";
+				TITANIUM_BASE_SDK2 = "\"$(TITANIUM_SDK)/iphone/include/TiCore\"";
+				TITANIUM_SDK = "~/Library/Application Support/Titanium/mobilesdk/osx/$(TITANIUM_SDK_VERSION)";
+				TITANIUM_SDK_VERSION = 2.1.5;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
@@ -196,7 +222,7 @@
 			buildSettings = {
 				DSTROOT = /tmp/cameraflash.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "cameraflash/cameraflash-Prefix.pch";
+				GCC_PREFIX_HEADER = "cameraflash-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -208,7 +234,7 @@
 			buildSettings = {
 				DSTROOT = /tmp/cameraflash.dst;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "cameraflash/cameraflash-Prefix.pch";
+				GCC_PREFIX_HEADER = "cameraflash-Prefix.pch";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
