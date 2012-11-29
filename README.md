@@ -10,9 +10,9 @@ Registering the module
 Register the module with your application by editing `tiapp.xml` and adding your module.
 Example:
 
-<modules>
-	<module version="0.1">com.noizeramp.cameraflash</module>
-</modules>
+    <modules>
+      <module version="0.1">com.noizeramp.cameraflash</module>
+    </modules>
 
 
 Using the module in code
