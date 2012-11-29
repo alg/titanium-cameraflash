@@ -77,7 +77,9 @@
 #pragma Public APIs
 
 -(id)isCameraFlashAvailable:(id)args {
-  return NO;
+  // for now we'll just look at the rear camera
+  UIImagePickerControllerCameraDevice device = UIImagePickerControllerCameraDeviceRear;
+  return NUMBOOL([UIImagePickerController isFlashAvailableForCameraDevice:device]);
 }
 
 /*
