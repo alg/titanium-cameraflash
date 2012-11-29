@@ -30,11 +30,3 @@ Detecting camera flash availability
 
     CameraFlash.isCameraFlashAvailable()
 
-
-License
--------
-
-This module is released under "GNU AFFERO GENERAL PUBLIC LICENSE".
-
-Copyright (c) 2012 by Aleksey Gureiev
-
