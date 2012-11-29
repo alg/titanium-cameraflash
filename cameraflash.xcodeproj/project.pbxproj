@@ -1,0 +1,241 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		7991316D1667400200DE2849 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7991316C1667400200DE2849 /* Foundation.framework */; };
+		799131721667400200DE2849 /* cameraflash.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 799131711667400200DE2849 /* cameraflash.h */; };
+		799131741667400200DE2849 /* cameraflash.m in Sources */ = {isa = PBXBuildFile; fileRef = 799131731667400200DE2849 /* cameraflash.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		799131671667400200DE2849 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/${PRODUCT_NAME}";
+			dstSubfolderSpec = 16;
+			files = (
+				799131721667400200DE2849 /* cameraflash.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		799131691667400200DE2849 /* libcameraflash.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libcameraflash.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7991316C1667400200DE2849 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		799131701667400200DE2849 /* cameraflash-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "cameraflash-Prefix.pch"; sourceTree = "<group>"; };
+		799131711667400200DE2849 /* cameraflash.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = cameraflash.h; sourceTree = "<group>"; };
+		799131731667400200DE2849 /* cameraflash.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = cameraflash.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		799131661667400200DE2849 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7991316D1667400200DE2849 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7991315E1667400200DE2849 = {
+			isa = PBXGroup;
+			children = (
+				7991316E1667400200DE2849 /* cameraflash */,
+				7991316B1667400200DE2849 /* Frameworks */,
+				7991316A1667400200DE2849 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7991316A1667400200DE2849 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				799131691667400200DE2849 /* libcameraflash.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7991316B1667400200DE2849 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7991316C1667400200DE2849 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7991316E1667400200DE2849 /* cameraflash */ = {
+			isa = PBXGroup;
+			children = (
+				799131711667400200DE2849 /* cameraflash.h */,
+				799131731667400200DE2849 /* cameraflash.m */,
+				7991316F1667400200DE2849 /* Supporting Files */,
+			);
+			path = cameraflash;
+			sourceTree = "<group>";
+		};
+		7991316F1667400200DE2849 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				799131701667400200DE2849 /* cameraflash-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		799131681667400200DE2849 /* cameraflash */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 799131771667400200DE2849 /* Build configuration list for PBXNativeTarget "cameraflash" */;
+			buildPhases = (
+				799131651667400200DE2849 /* Sources */,
+				799131661667400200DE2849 /* Frameworks */,
+				799131671667400200DE2849 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = cameraflash;
+			productName = cameraflash;
+			productReference = 799131691667400200DE2849 /* libcameraflash.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		799131601667400200DE2849 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0450;
+				ORGANIZATIONNAME = "Aleksey Gureiev";
+			};
+			buildConfigurationList = 799131631667400200DE2849 /* Build configuration list for PBXProject "cameraflash" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7991315E1667400200DE2849;
+			productRefGroup = 7991316A1667400200DE2849 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				799131681667400200DE2849 /* cameraflash */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		799131651667400200DE2849 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				799131741667400200DE2849 /* cameraflash.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		799131751667400200DE2849 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		799131761667400200DE2849 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		799131781667400200DE2849 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/cameraflash.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "cameraflash/cameraflash-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		799131791667400200DE2849 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DSTROOT = /tmp/cameraflash.dst;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "cameraflash/cameraflash-Prefix.pch";
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		799131631667400200DE2849 /* Build configuration list for PBXProject "cameraflash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				799131751667400200DE2849 /* Debug */,
+				799131761667400200DE2849 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		799131771667400200DE2849 /* Build configuration list for PBXNativeTarget "cameraflash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				799131781667400200DE2849 /* Debug */,
+				799131791667400200DE2849 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 799131601667400200DE2849 /* Project object */;
+}
