@@ -2,8 +2,8 @@
 # this is your module manifest and used by Titanium
 # during compilation, packaging, distribution, etc.
 #
-version: 0.1
-apiversion: 2
+version: 0.2
+apiversion: 3
 description: Camera flash support library.
 author: Aleksey Gureiev
 license: GNU AFFERO GENERAL PUBLIC LICENSE
@@ -15,4 +15,4 @@ name: cameraflash
 moduleid: com.noizeramp.cameraflash
 guid: bf33cf78-bdaf-4f40-b02e-c08b12c3993a
 platform: iphone
-minsdk: 2.1.5
+minsdk: 3.5.0
