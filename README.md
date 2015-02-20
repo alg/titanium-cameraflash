@@ -11,7 +11,7 @@ Register the module with your application by editing `tiapp.xml` and adding your
 Example:
 
     <modules>
-      <module version="0.1">com.noizeramp.cameraflash</module>
+      <module version="0.2">com.noizeramp.cameraflash</module>
     </modules>
 
 
