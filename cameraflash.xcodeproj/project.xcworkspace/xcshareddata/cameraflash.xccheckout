@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>40B064CB-3BF1-4EEF-BBA3-E0FC4DC34198</string>
+	<key>IDESourceControlProjectName</key>
+	<string>cameraflash</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>85DC94786B858B22698C8189FB38B6243D2732DC</key>
+		<string>https://github.com/raefa/titanium-cameraflash.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>cameraflash.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>85DC94786B858B22698C8189FB38B6243D2732DC</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/raefa/titanium-cameraflash.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>85DC94786B858B22698C8189FB38B6243D2732DC</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>85DC94786B858B22698C8189FB38B6243D2732DC</string>
+			<key>IDESourceControlWCCName</key>
+			<string>titanium-cameraflash</string>
+		</dict>
+	</array>
+</dict>
+</plist>
